@@ -1,0 +1,39 @@
+{
+    "name": "jacksonwebservices/laravel-display",
+    "description": "Laravel blade helpers",
+    "homepage": "https://github.com/jacksonwebservices/laravel-display",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joshua Chandler",
+            "email": "jchandler@jacksonfurnind.com"
+        },
+        {
+            "name": "Robert Davis",
+            "email": "davisr@jacksonfurnind.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": ">=5.0",
+        "graham-campbell/markdown": "^6.0"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "phpspec/phpspec": "~2.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "JWS\\Display\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "JWS\\Display\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,4 @@
+suites:
+  library_suite:
+    namespace: JWS\Display\Tests
+    psr4_prefix: JWS\Display\Tests
